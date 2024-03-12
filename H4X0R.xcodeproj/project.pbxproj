@@ -14,6 +14,10 @@
 		F2CB49A42BA020A000EED7D3 /* H4X0RTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CB49A32BA020A000EED7D3 /* H4X0RTests.swift */; };
 		F2CB49AE2BA020A000EED7D3 /* H4X0RUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CB49AD2BA020A000EED7D3 /* H4X0RUITests.swift */; };
 		F2CB49B02BA020A000EED7D3 /* H4X0RUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CB49AF2BA020A000EED7D3 /* H4X0RUITestsLaunchTests.swift */; };
+		F2CB49BE2BA0285D00EED7D3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CB49BD2BA0285D00EED7D3 /* NetworkManager.swift */; };
+		F2CB49C02BA029B400EED7D3 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CB49BF2BA029B400EED7D3 /* PostData.swift */; };
+		F2CB49C22BA0357800EED7D3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CB49C12BA0357800EED7D3 /* DetailView.swift */; };
+		F2CB49C52BA039AC00EED7D3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CB49C42BA039AC00EED7D3 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		F2CB49A92BA020A000EED7D3 /* H4X0RUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = H4X0RUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CB49AD2BA020A000EED7D3 /* H4X0RUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0RUITests.swift; sourceTree = "<group>"; };
 		F2CB49AF2BA020A000EED7D3 /* H4X0RUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0RUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2CB49BD2BA0285D00EED7D3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F2CB49BF2BA029B400EED7D3 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		F2CB49C12BA0357800EED7D3 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F2CB49C42BA039AC00EED7D3 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		F2CB49912BA0209E00EED7D3 /* H4X0R */ = {
 			isa = PBXGroup;
 			children = (
+				F2CB49BC2BA0283E00EED7D3 /* Models */,
 				F2CB49922BA0209F00EED7D3 /* H4X0RApp.swift */,
-				F2CB49942BA0209F00EED7D3 /* ContentView.swift */,
+				F2CB49C32BA0399400EED7D3 /* Views */,
 				F2CB49962BA020A000EED7D3 /* Assets.xcassets */,
 				F2CB49982BA020A000EED7D3 /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				F2CB49AF2BA020A000EED7D3 /* H4X0RUITestsLaunchTests.swift */,
 			);
 			path = H4X0RUITests;
+			sourceTree = "<group>";
+		};
+		F2CB49BC2BA0283E00EED7D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2CB49BD2BA0285D00EED7D3 /* NetworkManager.swift */,
+				F2CB49BF2BA029B400EED7D3 /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2CB49C32BA0399400EED7D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2CB49942BA0209F00EED7D3 /* ContentView.swift */,
+				F2CB49C12BA0357800EED7D3 /* DetailView.swift */,
+				F2CB49C42BA039AC00EED7D3 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2CB49BE2BA0285D00EED7D3 /* NetworkManager.swift in Sources */,
+				F2CB49C02BA029B400EED7D3 /* PostData.swift in Sources */,
 				F2CB49952BA0209F00EED7D3 /* ContentView.swift in Sources */,
+				F2CB49C52BA039AC00EED7D3 /* WebView.swift in Sources */,
+				F2CB49C22BA0357800EED7D3 /* DetailView.swift in Sources */,
 				F2CB49932BA0209F00EED7D3 /* H4X0RApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
